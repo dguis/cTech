@@ -1,1 +1,48 @@
+*{
+margin: 0;
+}
 
+/*
+Sorry. I don't know what this is for.
+p, h1, h2, h3, h4, h5, h6 {
+  background-color: lightgrey;
+  font-family: sans-serif;
+  text-align: left;
+}
+*/
+aside{
+background-color: white;
+text-align: right;
+}
+
+#content{
+ background-color: WhiteSmoke;
+ text-align: center;
+ height: 100%;
+ margin: 0px 200px 0px 200px;
+}
+
+#content p, #content ul, #content h6{
+ text-align: left;
+ padding: 0px 20px 0px 20px;
+}
+
+nav{
+  padding: 5px;
+  background-color: rgb(220, 220, 220);
+  color: dimgray;
+}
+
+nav h2{
+ display: inline;
+ padding: 0px 5px 0px 5px;
+ cursor: pointer;
+}
+
+.selected{
+ color: black;
+}
+
+nav a:hover{
+ color: rgb(50, 50, 50);
+}
